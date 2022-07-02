@@ -9,16 +9,11 @@ export default function Home() {
     <div className="container">
       <Head>
         <title>Next.js Toolbox</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link href="https://i.ibb.co/Xk0jyxQ/IMG-20220515-204730.jpg" rel="icon">
       </Head>
 
       <main>
-        <Header title="Next.js Toolbox" />
-        <hr />
-        <p className="description">
-          Here's an example of a Netlify Form! When you fill this out, the
-          submissions can be found in the Netlify Admin site.
-        </p>
+        
         <FeedbackForm />
         <JokeBlock />
       </main>
